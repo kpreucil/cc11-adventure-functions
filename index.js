@@ -71,6 +71,19 @@ var button = document.getElementById("new_adventure");
 function advRand(arr) {
     var random = Math.floor(Math.random() * arr.length);
     return arr[random];
+    /*
+    In Class discussion and edits
+    Alternate:
+    //return arr[Math.floor(Math.random() * arr.length)]; 
+    if (heroGender == "hero") { //applies appropriate pronoun
+        var nounGender = "his";
+    } else {
+        var nounGender = "her";
+    }
+    if (Math.random() < 0.05) { //add a less than 5% chance that any array will return DRAGON
+        return "DRAGON";
+    }
+    */
 };
 
 
